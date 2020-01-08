@@ -7,4 +7,7 @@
 * [番茄钟 🍅🕒 ](https://github.com/dengyaolong/geektime-electron/tree/master/Chapter%201/8-pomodoro-homework)
 
 # 课程内容大纲
-![image](https://github.com/dengyaolong/geektime-electron/raw/master/Chapter%201/2-content-roadmap.png)
+![image.png](https://i.loli.net/2020/01/08/uohnOXW6js8RYSm.png)
+
+# 视频入口
+![image](https://i.loli.net/2020/01/08/K2qLas1EmDXYuBW.png)
