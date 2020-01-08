@@ -8,3 +8,6 @@
 
 # 课程内容大纲
 ![image1](/Chapter%201/2-content-roadmap.png)
+
+# 视频课程入口
+![image2](/img/qrcode.png)
