@@ -1,0 +1,35 @@
+<html>
+    <style>
+        *{margin: 0;text-align: center;}
+        #timer-container {
+            padding: 30px;
+        }
+        #switch-button {
+            text-shadow: 0 -1px 0 rgba(0,0,0,0.12);
+            box-shadow: 0 2px 0 rgba(0,0,0,0.045);
+            outline: none;
+            margin-top: -10px
+            display: inline-block;
+            height: 30px;
+            padding: 0 7px;
+            font-size: 12px;
+            font-family: Avenir,-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei','Helvetica Neue',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol',sans-serif;
+            line-height: 30px;
+            text-align: center;
+            text-decoration: none;
+            border: 1px solid #F44336;
+            border-radius: 6px;
+            background: #F44336;
+            color: #FFF;
+        }
+    </style>
+    <body>
+        <div id="main">
+            <div id="timer-container"></div>
+            <button id="switch-button">开始工作</button>
+        </div>
+        <script>
+            require('./renderer.js')
+        </script>
+    </body>
+</html>
