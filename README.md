@@ -3,7 +3,7 @@
 
 
 # 快速入口
-* [视频教程📺](https://time.geekbang.org/course/intro/269)
+* [视频教程 📺](https://time.geekbang.org/course/intro/269)
 * [课程课件 📚](https://github.com/dengyaolong/geektime-electron/tree/master/PDF)
 * [番茄钟 🍅 ](https://github.com/dengyaolong/geektime-electron/tree/master/Chapter%201/8-pomodoro-homework)
 * [心形曲线 💝 ](https://github.com/dengyaolong/geektime-electron/tree/master/Chapter%202/4-robot-heart)
@@ -42,15 +42,15 @@
 
 ### 项目参考
 * 源码
-    * Atom https://github.com/atom/atom (架构清晰)
-    * WebTorrent https://github.com/webtorrent/webtorrent (WebTorren就是纯JS写的，个人十分喜欢)
-    * VSCode https://github.com/microsoft/vscode (大而全，可能比较难读)
+    * Atom <https://github.com/atom/atom> (架构清晰)
+    * WebTorrent <https://github.com/webtorrent/webtorrent> (WebTorren就是纯JS写的，个人十分喜欢)
+    * VSCode <https://github.com/microsoft/vscode> (大而全，可能比较难读)
 * 实践经验
-    * 美团 https://github.com/QConChina/QConBeijing2019/blob/master/%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5/Electron%20%E5%9C%A8%E4%BC%81%E4%B8%9A%20IM%20%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5-%E9%82%93%E8%80%80%E9%BE%99.pdf
-    * 携程 https://www.infoq.cn/article/AwVS6Kxt-7LCIFVruF6d
-    * https://cloud.tencent.com/developer/article/1558453
-    * https://changkun.us/archives/2017/03/217/
-    * https://webfe.kujiale.com/browser-to-client/
+    * 美团 [QConPPT](https://github.com/QConChina/QConBeijing2019/blob/master/%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5/Electron%20%E5%9C%A8%E4%BC%81%E4%B8%9A%20IM%20%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5-%E9%82%93%E8%80%80%E9%BE%99.pdf)
+    * 携程 <https://www.infoq.cn/article/AwVS6Kxt-7LCIFVruF6d>
+      *	<https://cloud.tencent.com/developer/article/1558453>
+    * <https://changkun.us/archives/2017/03/217/>
+    * <https://webfe.kujiale.com/browser-to-client/>
 
 ### 其他资料
 书籍，可以翻一下《Electron in Action》，《跨平台桌面应用开发：基于Electron与NW.js》
