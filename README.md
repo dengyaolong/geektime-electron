@@ -48,7 +48,7 @@
 * 实践经验
     * 美团 [QConPPT](https://github.com/QConChina/QConBeijing2019/blob/master/%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5/Electron%20%E5%9C%A8%E4%BC%81%E4%B8%9A%20IM%20%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5-%E9%82%93%E8%80%80%E9%BE%99.pdf)
     * 携程 <https://www.infoq.cn/article/AwVS6Kxt-7LCIFVruF6d>
-      *	<https://cloud.tencent.com/developer/article/1558453>
+   * <https://cloud.tencent.com/developer/article/1558453>
     * <https://changkun.us/archives/2017/03/217/>
     * <https://webfe.kujiale.com/browser-to-client/>
 
