@@ -1,0 +1,22 @@
+{
+  "name": "remote-control",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rebuild2": "npm rebuild --runtime=electron --target=5.0.13 --disturl=https://atom.io/download/atom-shell --abi=72",
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^7.1.7",
+    "electron-rebuild": "^1.8.8"
+  },
+  "dependencies": {
+    "keycode": "^2.2.0",
+    "robotjs": "^0.6.0"
+  }
+}
