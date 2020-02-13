@@ -1,0 +1,6 @@
+node_modules
+release/*
+app/renderer/pages/main/
+.DS_Store
+**/**/.DS_Store
+
