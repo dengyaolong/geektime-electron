@@ -1,5 +1,4 @@
-const {app, BrowserWindow} = require('electron')
-const path = require('path')
+const {app, BrowserWindow} = require('electron') const path = require('path')
 const isDev = require('electron-is-dev')
 const handleIPC = require('./ipc')
 const {create: createMainWindow, show: showMainWindow, close: closeMainWindow} = require('./windows/main')
@@ -17,10 +16,12 @@ if (!gotTheLock) {
         if(!isDev) {
             require('./updater.js')
         }
+        require('./crash-reporter').init()
     })
     // 创建 myWindow, 加载应用的其余部分, etc...
     app.on('ready', () => {
         // createControlWindow()
+        app.fp = require('geektime-fringerprint-example').getFringerprint()
         createMainWindow()
         handleIPC()
         require('./trayAndMenu')
@@ -28,7 +29,7 @@ if (!gotTheLock) {
     })
 
     app.on('activate', () => {
-        process.crash()
+        // process.crash()
         showMainWindow()
     })
    

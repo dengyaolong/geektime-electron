@@ -2,10 +2,6 @@ import React, {useState, useEffect} from 'react';
 import './App.css';
 import {ipcRenderer, remote} from 'electron'
 import './peer-puppet'
-const { Menu, MenuItem  } = remote
-const menu = new Menu()
-menu.append(new MenuItem({ label: '复制', role: 'copy' }))
-// import {ipcRenderer} from 'electron'
 
 function App() {
     const [remoteCode, setRemoteCode] = useState('');
@@ -43,6 +39,12 @@ function App() {
 
     const handleContextMenu = (e) => {
         e.preventDefault()
+	const { Menu, MenuItem  } = remote
+	const menu = new Menu()
+	menu.append(new MenuItem({ label: '复制', role: 'copy' }))
+	menu.append(new MenuItem({ label: '分享到微信', click: (menuItem, win, keyboardEvent)=>{
+		ipcRenderer.send('share-to-wechat', localCode)
+	}}))
         menu.popup()
     }
     

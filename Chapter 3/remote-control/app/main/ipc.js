@@ -1,4 +1,4 @@
-const {ipcMain} = require('electron')
+const {ipcMain, clipboard} = require('electron')
 const {create: createControlWindow, send: sendControlWindow} = require('./windows/control')
 const {send: sendMainWindow} = require('./windows/main')
 const signal = require('./signal')
@@ -11,6 +11,12 @@ module.exports = function () {
     ipcMain.on('control', async (e, remote) => {
         // 这里是跟服务端的交互，成功后我们会唤起面板
         signal.send('control', {remote})
+    })
+    ipcMain.on('share-to-wechat', async (e, code) => {
+        if(code) {
+            clipboard.writeText(code.toString())
+        }
+        require('./dll/activate-window').showWeChat()
     })
 
     signal.on('controlled', (data) => {
@@ -47,3 +53,4 @@ module.exports = function () {
         sendMainWindow('candidate', data)
     })
 }
+
