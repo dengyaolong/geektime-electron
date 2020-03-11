@@ -9,7 +9,7 @@
 * [心形曲线 💝 ](https://github.com/dengyaolong/geektime-electron/tree/master/Chapter%202/4-robot-heart)
 
 # 课程内容大纲
-![image1](/Chapter%201/2-content-roadmap.png)
+![image1](/img/summary.png)
 
 # [学习路线 🛣️](https://github.com/dengyaolong/geektime-electron/tree/master/ROADMAP.md)
 ### 基础部分
@@ -55,3 +55,6 @@
 ### 其他资料
 书籍，可以翻一下《Electron in Action》，《跨平台桌面应用开发：基于Electron与NW.js》
 视频，推荐一下自己的课程 https://time.geekbang.org/course/intro/269
+
+### 咨询
+* Electron 8.0 <https://www.electronjs.org/blog/electron-8-0>
