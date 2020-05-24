@@ -56,5 +56,6 @@
 书籍，可以翻一下《Electron in Action》，《跨平台桌面应用开发：基于Electron与NW.js》
 视频，推荐一下自己的课程 https://time.geekbang.org/course/intro/269
 
-### 咨询
+### 资讯
+* Electron 9.0 <https://www.electronjs.org/blog/electron-9-0>
 * Electron 8.0 <https://www.electronjs.org/blog/electron-8-0>
