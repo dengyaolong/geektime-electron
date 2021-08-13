@@ -34,7 +34,7 @@
 * 持续集成 https://juejin.im/entry/5995599a6fb9a0249f6a131b
 
 ### 原理深入
-* 了解Electron时间循环 https://electronjs.org/blog/electron-internals-node-integration
+* 了解Electron事件循环 https://electronjs.org/blog/electron-internals-node-integration
 * 源码结构 https://electronjs.org/docs/development/source-code-directory-structure
 * 与原生模块混合开发 https://electronjs.org/docs/tutorial/using-native-node-modules
 * 性能调优 https://electronjs.org/docs/tutorial/performance
