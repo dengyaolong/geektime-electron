@@ -15,7 +15,7 @@
   "devDependencies": {
     "concurrently": "^5.0.2",
     "customize-cra": "^0.9.1",
-    "electron": "^7.1.8",
+    "electron": "^11.5.0",
     "electron-rebuild": "^1.8.8",
     "react-app-rewired": "^2.1.5",
     "wait-on": "^3.3.0"
